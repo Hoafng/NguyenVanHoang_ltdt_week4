@@ -9,10 +9,10 @@ function MyStack() {
   return (
   
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={Screen2_c}/>
-      <Stack.Screen name="Notifications" component={Screen2_a} />
-      <Stack.Screen name="Profile" component={Screen2_c} />
-      <Stack.Screen name="Settings" component={Screen2_a} />
+      <Stack.Screen name="2a" component={Screen2_a}/>
+      <Stack.Screen name="2b" component={Screen2_a} />
+      <Stack.Screen name="2c" component={Screen2_c} />
+      <Stack.Screen name="2d" component={Screen2_a} />
     </Stack.Navigator>
   );
 }
